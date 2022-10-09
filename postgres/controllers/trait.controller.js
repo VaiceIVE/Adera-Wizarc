@@ -86,6 +86,16 @@ class TraitController
             res.json(uptrait.rows)
         }
     }
+
+    async getTrait(req, res)
+    {
+        const {id} = req.body
+        const traits = (await db.query('SELECT traits_id FROM users_traits WHERE users_id = $1', [id])).rows
+        console.log(traits)
+        const teamtraits = (await db.query('SELECT * FROM users_teamtraits WHERE users_id = $1', [id])).rows
+        console.log(teamtraits)
+        res.json(traits + teamtraits)
+    }
 }
 
 module.exports = new TraitController()

@@ -6,6 +6,7 @@ router.post('/trait', traitController.addTrait)
 router.delete('/trait/del/', traitController.deleteTrait)
 router.post('/teamtrait', traitController.addTeamTrait)
 router.delete('/teamtrait/del', traitController.deleteTeamTrait)
+router.get('/trait', traitController.getTrait)
 
 
 
