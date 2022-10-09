@@ -1,0 +1,30 @@
+.trait {
+    &__heading {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 36px;
+        display: flex;
+        align-items: center;
+        img {
+            margin-left: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            &:hover {
+                
+            }
+        }
+    }
+    &__row {
+        display: flex;
+    }
+    &__column {
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}

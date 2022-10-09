@@ -1,0 +1,43 @@
+.lending-footer {
+    padding-top: 80px;
+    padding-bottom: 86px;
+    background: #100E13;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list {
+        display: flex;
+        li {
+            margin-right: 40px;
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            transition: all 0.4s;
+        }
+        li:last-child {
+            margin-right: 0;
+        }
+        li:hover {
+            color: #5C0FDC;
+        }
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+    &__text {
+        margin-bottom: 10px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}

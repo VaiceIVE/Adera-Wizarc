@@ -1,0 +1,74 @@
+$maxWidthContainerApp: 1651;
+$maxWidthContainer: 1180;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+@import "_reset";
+@import "_main";
+@import "_navbar";
+@import "_header";
+@import "_lending-header";
+@import "_lending-home";
+@import "_lending-about-us";
+@import "_lending-functions";
+@import "_lending-bonus";
+@import "_lending-tags";
+@import "_lending-play";
+@import "_lending-footer";
+@import "_lending-start";
+@import "_greetings";
+@import "_calendar";
+@import "../pages/styles/home";
+@import "_modal-authorization";
+@import "_test-header";
+@import "_test-home";
+@import "_tutorial";
+@import "_events-com";
+@import "_events";
+@import "_account";
+@import "_money";
+@import "_market-com";
+@import "_trait";
+
+._container {
+    max-width: $maxWidthContainer + px;
+    margin: 0 auto;
+    @media (max-width: ($md1 + px)) {
+        max-width: 970px;
+    }
+    @media (max-width: ($md2 + px)) {
+        max-width: 750px;
+    }
+    @media (max-width: ($md3 + px)) {
+        max-width: none;
+        padding: 0 16px;
+    }
+}
+
+._container-app {
+    width: $maxWidthContainerApp + px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    @media (max-width: ($md1 + px)) {
+        max-width: 970px;
+    }
+    @media (max-width: ($md2 + px)) {
+        max-width: 750px;
+    }
+    @media (max-width: ($md3 + px)) {
+        max-width: none;
+        padding: 0 16px;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}

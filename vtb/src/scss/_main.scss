@@ -1,0 +1,43 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    cursor: default;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background: #100E13; 
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+
+.sticker {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+}

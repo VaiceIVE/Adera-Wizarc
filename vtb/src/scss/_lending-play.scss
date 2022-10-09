@@ -1,0 +1,40 @@
+.lending-play {
+    position: relative;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    &__bg-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #100E13;
+        z-index: -1;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 40px;
+    }
+    &__heading {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 59px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    &__heading-two {
+        margin-bottom: 20px;
+    }
+}

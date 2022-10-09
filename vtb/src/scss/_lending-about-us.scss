@@ -1,0 +1,45 @@
+.lending-about-us {
+    
+    position: relative;
+    &__row {
+        padding-top: 160px;
+        margin-bottom: 158px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__heading {
+        margin-bottom: 60px;
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    &__text {
+        margin-bottom: 20px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: rgba(255, 255, 255, 0.8);
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+    &__bg-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #100E13;
+        z-index: -1;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    
+}

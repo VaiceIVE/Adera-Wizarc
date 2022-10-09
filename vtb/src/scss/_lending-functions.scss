@@ -1,0 +1,31 @@
+.lending-functions {
+    &__list {
+        display: flex;
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 340px;
+            height: 254px;
+            background: linear-gradient(225.87deg, #171120 0%, #17151B 100%);
+            border-radius: 20px;
+            margin-right: 80px;
+            &:last-child {
+                margin-right: 0;
+                margin-top: 334px;
+            }
+            &:nth-last-child(2){
+                margin-top: 167px;
+            }
+        }
+    }
+    &__text {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-top: 20px;
+    }
+}

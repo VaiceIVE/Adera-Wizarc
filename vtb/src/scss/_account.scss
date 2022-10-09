@@ -1,0 +1,78 @@
+.accountt {
+    background: #17151B;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 210px;
+    padding-right: 210px;
+    width: 1490px;
+    height: 700px;
+    &__head {
+        display: flex;
+        width: 320px;
+        flex-direction: column;
+        align-items: start;
+        text-align: center;
+        img {
+            margin-bottom: 30px;
+            align-self: center;
+        }
+    }
+    &__name {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 10px;
+        align-self: center;
+    }
+    &__job {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 40px;
+        align-self: center;
+    }
+    &__link {
+        display: flex;
+        margin-bottom: 60px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #8E66D0;
+        align-self: center;
+    }
+    &__coven {
+        margin-left: 25px;
+    }
+    &__row {
+        display: flex;
+        flex-direction: column;
+    }
+    &__row {
+        display: flexbox;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 541px;   
+    }
+    &__app {
+        display: inline-block;
+    }
+    
+}
+
+.account {
+    &__row {
+        cursor: pointer;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+}

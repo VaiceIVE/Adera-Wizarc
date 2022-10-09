@@ -1,0 +1,30 @@
+.lending-tags{
+    &__row {
+        display: flex;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    &__list {
+        display: flex;
+        animation: scroll 40s linear reverse infinite;
+        li {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 29px;
+            color: #FFFFFF;
+            padding: 20px 30px;
+            background: #17151B;
+        }
+    }
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

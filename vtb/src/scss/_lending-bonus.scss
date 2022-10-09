@@ -1,0 +1,35 @@
+.lending-bonus {
+    padding-top: 109px;
+    padding-bottom: 146px;
+    position: relative;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__heading {
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        color: #FFFFFF;
+        position: relative;
+    }
+    &__text {
+        @extend .lending-about-us__text;
+    }
+    &__bg-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #100E13;
+        z-index: -1;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

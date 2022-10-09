@@ -1,0 +1,56 @@
+.Search {
+    width: 354px;
+    height: 56px;
+    background: linear-gradient(225.87deg, #171120 0%, #17151A 100%);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    &__input {
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.5);
+        
+    }
+}
+
+.header {
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }   
+}
+
+.account {
+    &__row {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    img {
+        margin-right: 20px;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+    }
+    &__name {
+        margin-bottom: 4px;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    &__level {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FF974D;
+    }
+}

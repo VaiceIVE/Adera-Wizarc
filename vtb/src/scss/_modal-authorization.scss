@@ -1,0 +1,113 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    &__content {
+        width: 530px;
+        background: #17151B;
+        border-radius: 20px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+    &__row {
+        display: flex;
+        flex-direction: column;
+    }
+    &__heading {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    &__close {
+        text-align: right;
+        margin-bottom: 20px;
+    }
+    &__close:hover {
+        cursor: pointer;
+    }
+    &__form {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input {
+            padding: 13px 20px;
+            margin-bottom: 20px;
+            background: #26232D;
+            border-radius: 10px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            letter-spacing: -0.408px;
+            color: rgba(255, 255, 255, 0.2);
+            width: 450px;
+        }  
+        input:last-child {
+            margin-bottom: 0;
+        }  
+    }
+    &__btn {
+        display: flex;
+        align-self: center;
+        width: 450px;
+        height: 58px;
+        background: #5C0FDC;
+        border-radius: 20px;
+        position: relative;
+        transition: all 0.4s;
+        span {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            color: #FFFFFF;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+        &:hover {
+            background: #34087a;
+        }
+    }
+    &__footer {
+        display: flex;
+        align-self: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        opacity: 0.8;
+        span {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    }
+}
+
+

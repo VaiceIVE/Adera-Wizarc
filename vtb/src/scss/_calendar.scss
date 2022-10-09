@@ -1,0 +1,61 @@
+.calendar {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 419px;
+    height: 467px;
+    background: linear-gradient(225.87deg, #171120 0%, #17151A 100%);
+    border-radius: 20px;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 44px;
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    &__name {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    &__btns {
+        button:last-child {
+            margin-left: 20px;
+        }
+    }
+    &__day-name {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.9);
+        width: 48px;
+        text-align: center;
+    }
+    
+    &__day {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.2);
+        vertical-align: middle;
+        text-align: center;
+        height: 48px;
+        transition: all 0.4s;
+        border-radius: 50%;
+        &.today {
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+        }
+        &.selected {
+            background: #5C0FDC;
+            border-radius: 50%;
+        }
+    }
+    
+}

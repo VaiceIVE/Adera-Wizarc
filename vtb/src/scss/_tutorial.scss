@@ -1,0 +1,121 @@
+.tutorial {
+    padding-top: 94px;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1172px;
+        height: 692px;
+        background: #17151B;
+        border-radius: 20px;
+        padding-top: 40px;
+    }
+    &__heading {
+        text-align: center;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    &__progress {
+        width: 1092px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: right;
+        letter-spacing: -0.408px;
+        color: #5C0FDC;
+        margin-bottom: 20px;
+    }
+    img {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__row {
+        width: 1092px;
+        height: 382px;
+        border-radius: 20px;
+        background-image: url('../image/content/1.png');
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+    }
+
+    &__name {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 22px;
+        letter-spacing: -0.408px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    &__text {  
+        width: 429px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -0.408px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__btn {
+        width: 1092px;
+        display: flex;
+        justify-content: end;
+        color: #FF974D;
+        margin-top: 40px;
+        
+        img {
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    }
+    &__s {
+        cursor: pointer;
+    }
+    &__custom-text {
+        margin-top: 40px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 26px;
+        letter-spacing: -0.408px;
+        color: #FF974D;
+    }
+}
+
+._f {
+    height: 606px;
+}
+
+._two {
+    background-image: url('../image/content/3.png');
+}
+
+._three {
+    background-image: url('../image/content/2.png');
+}
+
+._four {
+    background-image: url('../image/content/4.png');
+}
+
+._five {
+    background-image: url('../image/content/5.png');
+}
